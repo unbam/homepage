@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>Under The Bamboo</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Masashi Takeshita">
+        <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="shortcut icon" href="">
+        <link rel="apple-touch-icon" href="">
+        <link rel="stylesheet" href="node_modules/sanitize.css/sanitize.css">
+        <link rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css">
+        <link rel="stylesheet" href="node_modules/nvd3/build/nv.d3.min.css">
+        <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+        <script src="node_modules/d3/d3.min.js"></script>
+        <script src="node_modules/nvd3/build/nv.d3.min.js"></script>
+        <script src="node_modules/datatables/media/js/jquery.dataTables.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="l-header">
+                <h1 class="logo"><a href="#top">Under The Bamboo</a></h1>
+                <nav class="gnav">
+                    <ul class="gnav-list" id="menu">
+                        <li data-menuanchor="about"><a class="gnav-link" href="#about">About</a></li>
+                        <li data-menuanchor="skills"><a class="gnav-link" href="#skills">Skills</a></li>
+                        <li data-menuanchor="works"><a class="gnav-link" href="#works">Works</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="contents">
+                <div id="main">
+                    <section class="section top">
+                        <h2 class="top-title">Under The Bamboo</h2>
+                    </section>
+                    <section class="section profile about">
+                        <h3>About</h3>
+                        <img class="avatar" src="img/avatar.png" />
+                        <p>Masashi Takeshita</p>
+                        <p>1990.10.09</p>
+                        <p>Engineer</p>
+                        <div>
+                            <a class="links" href="https://github.com/unbam" target="_blank" title="github">
+                                <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a class="links" href="https://twitter.com/tkmssh" target="_blank" title="twitter">
+                                <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="section profile skills">
+                        <h3>Skills</h3>
+                        <p>2017</p>
+                        <div id="chart">
+                            <svg></svg>
+                        </div>
+                    </section>
+                    <section class="section profile works">
+                        <h3>Works</h3>
+                        <p>2011 ～ 2017</p>
+                        <div class="l-table">
+                            <table id="table" width="100%"></table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer class="l-footer">
+                <p class="copyright">
+                    <small>© Under The Bamboo All rights reserved.</small>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "underthebamboo",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masashi Takeshita",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^14.3.0",
+    "d3": "3.5.17",
+    "datatables": "^1.10.13",
+    "fullpage.js": "^2.9.4",
+    "jquery": "^3.2.1",
+    "nvd3": "1.8.5",
+    "sanitize.css": "^5.0.0"
+  }
+}
