@@ -4,7 +4,7 @@ $(function(){
     $('#main').fullpage({
         anchors: ['top', 'about', 'skills', 'works'],
         menu: '#menu',
-        navigation: true,
+        navigation: false,
         onLeave: function (index, nextIndex, direction) {
 
             // ProfilePage
